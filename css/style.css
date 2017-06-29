@@ -102,7 +102,6 @@ span {
 	top: 100px;
 	left: 125px;
 	float:left;
-	/*padding: 0px 0px 60px 15px;*/
 }
 
 .featuregames{
@@ -143,53 +142,45 @@ span {
 	background-color: grey;
 }
 
-/*.categories{
-	position:relative;
-	top:100px;
+ul{
+	list-style: none;
+	padding:0
+	margin-top: -20px;
+}
+
+li{
+	display: inline-block;
+	color:black;
+	font-weight:normal;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.items{
+	clear:right;
+}
+
+.itemsbox {
+	width:490px;
+	height:60px;
+	position: relative;
+	left:100px;
+	top:10px;
+	border-bottom: 1px solid #ccc;
+	background-color: #e1e1e1;
+	display: block;
 	float:left;
-	margin:0;
-	}*/
+}
 
-	ul{
-		list-style: none;
-		padding:0
-		margin-top: -20px;
-	}
+.itemsbox img{
+	float:left;
+	width: 100px;
+	height: 60px;
+	margin-right:10px; 
+}
 
-	li{
-		display: inline-block;
-		color:black;
-		font-weight:normal;
-		text-transform: uppercase;
-		font-size: 15px;
-	}
+.itemsbox h3{
+	font-size: 10px;
+	color:black;
 
-	.items{
-		clear:right;
-	}
-
-	.itemsbox {
-		width:490px;
-		height:60px;
-		position: relative;
-		left:100px;
-		top:10px;
-		border-bottom: 1px solid #ccc;
-		background-color: #e1e1e1;
-		display: block;
-		float:left;
-	}
-
-
-	.itemsbox img{
-		float:left;
-		width: 100px;
-		height: 60px;
-		margin-right:10px; 
-	}
-
-	.itemsbox h3{
-		font-size: 10px;
-		color:black;
-
-	}
+}
