@@ -1,0 +1,195 @@
+body {
+	margin:0;
+	background-color: #ccc;
+	color:white;
+	font-size: 16px;
+	font-family:'Lato', sans-serif;
+}
+
+h1,h4, h5, h6{
+	margin: 0;
+	color:#ffffff;
+	font-weight:normal;
+	text-transform: uppercase;
+	font-size: 23px;
+	padding: 25px 20px;
+}
+
+h2 {
+	margin:0;
+	position:relative;
+	bottom:150px;
+	color:black;
+	font-weight:normal;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 10px 0;
+}
+.topbar {
+	margin:0;
+	width:100%;
+	height:5px;
+	position:relative;
+	top:0;
+	background-color:purple;
+}
+
+nav.menu {
+	width:100%;
+	height:56px;
+	background:rgba(26,26,26,0.9);
+	position: relative;
+	padding:10px 20px;
+	box-sizing: border-box;
+}
+
+a {
+	float:left;
+	padding-right: 30px;
+
+}
+.menuleft div {
+	float:left;
+	position:relative;
+	justify-content: space-between;
+	padding: 5px 5px 5px 5px;
+}
+
+.menuright div {
+	float:right;
+	position:relative;
+	justify-content: space-between 10px;
+	padding: 5px 15px 0px 20px;
+}
+
+span {
+
+	margin-left: 30px;
+}
+
+.banner {
+	width: 100%;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-image: url(https://images-1.gog.com/7621b039086fe577be7fe4bc693b8060c0352913a3ddaabb19f3835901b0765d_product_banner_160.jpg);
+	position: relative;
+	top: 30px;
+	left: 100px;
+	overflow: hidden;
+}
+
+.whatsnew {
+	width: 60%;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-image: url( https://images-4.gog.com/ea7dbc23ebbb95f201a6199ae914ba87e8fc9d984909180c3dcc08a265c84394.jpg);
+	background-position:cover;
+	position:relative;
+	top: 100px;
+	left: 100px;
+	float:left;
+}
+
+.latestdeal {
+	width: 21%;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-color: red;
+	background-image: url( );
+	background-position: cover;
+	position: relative;
+	top: 100px;
+	left: 125px;
+	float:left;
+	/*padding: 0px 0px 60px 15px;*/
+}
+
+.featuregames{
+	width:100%;
+	position:relative;
+	top: 120px;
+	left: 100px;
+	clear: both;
+}
+
+.box{
+	margin-right:15px;
+	margin-bottom: 50px;
+	width: 198px;
+	height: 150px;
+	float:left;
+	background-image: url(https://images-2.gog.com/2406d32663d9ebc02e824e98dc1f1426463f2d871bf75644e39a39e47e243330_392.jpg);
+	background-position: cover;
+}
+
+.leftheader{
+	position:relative;
+	top:120px;
+	left:80px;
+	margin: 100px 100px 100px 20px;
+}
+
+.aboutgog_header{
+
+	position:relative;
+	top:140px;
+}
+.aboutgog {
+	margin-bottom: 50px;
+	width: 180px;
+	height: 120px;
+	float:left;
+	background-color: grey;
+}
+
+/*.categories{
+	position:relative;
+	top:100px;
+	float:left;
+	margin:0;
+	}*/
+
+	ul{
+		list-style: none;
+		padding:0
+		margin-top: -20px;
+	}
+
+	li{
+		display: inline-block;
+		color:black;
+		font-weight:normal;
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+
+	.items{
+		clear:right;
+	}
+
+	.itemsbox {
+		width:490px;
+		height:60px;
+		position: relative;
+		left:100px;
+		top:10px;
+		border-bottom: 1px solid #ccc;
+		background-color: #e1e1e1;
+		display: block;
+		float:left;
+	}
+
+
+	.itemsbox img{
+		float:left;
+		width: 100px;
+		height: 60px;
+		margin-right:10px; 
+	}
+
+	.itemsbox h3{
+		font-size: 10px;
+		color:black;
+
+	}
